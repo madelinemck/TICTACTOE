@@ -22,7 +22,14 @@ public class MainClassforTicTacToe {
         Game g = new Game ();
         
         g.initizateGame(); 
-                
+        System.out.println ("Welcome to Tic-Tac-Toe!\n")      
+        
+    while(truth)
+    }
+    Player= g.ChangePlayer (Player); 
+    System.out.print("\n + player +". choose your location (row, column:");
+    row=k.nextInt();  
+    
         
     }
     
