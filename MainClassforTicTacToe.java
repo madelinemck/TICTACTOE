@@ -32,7 +32,7 @@ while(truth)
     column=k.nextInt();
     {
     
-while("\n + player 2". chosse your location (row. column:");
+while("\n + player 2". choose your location (row. column:");
     g.displayboard();
     row=k.nextInt();
     column=k.nextInt();
@@ -49,13 +49,13 @@ g.displayBoard();
 
 if(g.checkIfWinner())
     {
-    System.out.println("\nThe winner is "+ player+" !");
+    System.out.println("\nThe winner of Tic-Tac-Toe and bragging rights goes to "+ player+" !");
     break;
 
     }
 if(g.checkIfTie())
     {
-        System.out.println("\nThe game is a tie !");
+        System.out.println("\nThis game is a tie, will you fight again for a chance for victory? !");
         break;
     }
 }
