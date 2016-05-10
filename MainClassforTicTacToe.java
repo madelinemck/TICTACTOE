@@ -27,12 +27,12 @@ public static void main(String[] args) {
 while(truth)
     }
     Player= g.ChangePlayer (Player); 
-    System.out.print("\n + player +". choose your location (row, column:");
+    System.out.print("\n + player +". choose your location for your piece (row, column:");
     row=k.nextInt();  
     column=k.nextInt();
     {
     
-while("\n + player 2". choose your location (row. column:");
+while("\n + player 2". choose your location for your piece (row, column:");
     g.displayboard();
     row=k.nextInt();
     column=k.nextInt();
@@ -55,8 +55,15 @@ if(g.checkIfWinner())
     }
 if(g.checkIfTie())
     {
-        System.out.println("\nThis game is a tie, will you fight again for a chance for victory? !");
+        System.out.println("\nThis game is a tie, will you fight again for a chance at victory? !");
         break;
     }
 }
+
+JPanel newPanel = new JPanel();
+
+public class UserDetail extends JPanel
+
+JPanel newpanel = newJPanel 
+
 
